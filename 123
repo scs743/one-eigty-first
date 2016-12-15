@@ -19,6 +19,3 @@ while k <= 100:
     k = k + 1
 f = "%.25f" % f
 print(m, '的倒数是', f)
-
-a = range(1, 5)
-print(a[2])
