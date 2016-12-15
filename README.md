@@ -12,5 +12,6 @@ sys.path.insert(0, your_custom_module_path)
 用户可以上传和使用 .pyc 文件，注意 .pyc 文件必须是 python2.7.9 生成的，否则无效。
 Python 运行环境设置了一些自定义的环境变量，这些环境变量可以通过 os.environ 这个 dict 获取。
 APP_NAME：应用名。
+
 APP_VERSION: 当前应用使用的版本号。
 SERVER_SOFTWARE: 当前 server 的版本（目前为 direwolf/0.1）。 可以使用这个环境变量来区分本地开发环境还是在线环境，本地开发环境未设置这个值。
