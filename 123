@@ -1,0 +1,24 @@
+# -*- coding: utf-8 –*-
+N = 81
+m = N
+n = 1
+while N >= 10:
+    N = N // 10
+    n = n + 1
+print(m, '是', n, '位数。')
+
+k = 0
+f = 0
+a = 10**n - m
+b = 1 / 10**n
+while k <= 100:
+    c = a**k
+    d = b**(k + 1)
+    e = c * d
+    f = f + e
+    k = k + 1
+f = "%.25f" % f
+print(m, '的倒数是', f)
+
+a = range(1, 5)
+print(a[2])
